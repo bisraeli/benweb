@@ -11,10 +11,7 @@ angular.module 'app', [
     $scope.isOpen = !$scope.isOpen
 
   $scope.showContactDialog = ->
-    $mdDialog.show
-      templateUrl: 'client/templates/contact.html'
-      parent: angular.element(document.body)
-      clickOutsideToClose: true
+    $scope.goToSection('contact')
     return
 
 
