@@ -21,3 +21,5 @@ angular
 fourseven:scss
 coffeescript@1.2.3
 angular:angular-material
+aldeed:collection2
+aldeed:autoform

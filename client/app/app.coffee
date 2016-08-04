@@ -3,8 +3,9 @@ angular.module 'app', [
   'ngMaterial'
 ]
 
-.controller 'Ctrl', ['$scope', '$mdDialog', ($scope, $mdDialog) ->
+.controller 'Ctrl', ['$scope', '$http', '$mdDialog', ($scope, $http, $mdDialog) ->
   $scope.isOpen = false
+  $scope.contact = {}
 
   $scope.toggleMobileNav = ->
     $scope.isOpen = !$scope.isOpen
@@ -23,6 +24,10 @@ angular.module 'app', [
     console.log $scope.activeSection
     $scope.isOpen = false
     return
+
+  $scope.submit = ->
+    console.log $scope.contact
+    $http.post 'https://sheetsu.com/apis/v1.0/930922d8f6ba', { id: '6', name: 'Glenn', score: '69' }
 
   initialize = ->
     $scope.activeSection = 'about'
