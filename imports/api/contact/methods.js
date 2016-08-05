@@ -1,5 +1,5 @@
 import { check, Match } from 'meteor/check';
-import { FormSubmits } from './main.js';
+import { Contact } from './contact.js';
 
 const FORM_DATA = {
   name: String,
@@ -14,6 +14,6 @@ Meteor.methods({
     check(formData, FORM_DATA);
 
     // save to database
-    FormSubmits.insert(formData);
+    Contact.insert(formData);
   }
 });
