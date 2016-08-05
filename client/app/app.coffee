@@ -23,8 +23,8 @@ angular.module 'app', [
     return
 
   $scope.submit = ->
-    console.log $scope.contact
-    $http.post 'https://sheetsu.com/apis/v1.0/930922d8f6ba', { id: '6', name: 'Glenn', score: '69' }
+    formData = $scope.contact;
+    Meteor.call('saveFormData', formData);
 
   initialize = ->
     $scope.activeSection = 'about'
