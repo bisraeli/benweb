@@ -1,0 +1,48 @@
+.about {
+  @media (min-width: 768px) {
+    .content-image {
+      height: 280px !important;
+      width: 280px !important;
+    }
+  }
+
+  .content-image {
+    float: left;
+    margin: 0 1rem .25rem 0;
+    height: 140px;
+    width: 140px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      @media (min-width: 768px) {
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .content-text-large {
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+
+    @media (min-width: 768px) {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  .content-text {
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 25px;
+    margin-bottom: 3rem;
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}
