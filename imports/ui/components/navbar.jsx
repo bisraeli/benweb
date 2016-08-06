@@ -1,6 +1,7 @@
 import React from 'react';
 import { createContainer } from 'meteor/react-meteor-data';
 import Header from './header.jsx';
+import { toggleMobileMenu } from '../helpers/mobile-menu.js';
 
 class Navbar extends React.Component {
   isActiveRouteName (routeName) {
@@ -28,7 +29,7 @@ class Navbar extends React.Component {
           </div>
 
           <div className="col s2 m6">
-            <a className="button-collapse right hide-on-large-only">
+            <a onClick={ toggleMobileMenu } className="button-collapse right hide-on-large-only">
               <i className="material-icons">menu</i>
             </a>
             <ul className="right hide-on-med-and-down">
