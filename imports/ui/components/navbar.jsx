@@ -19,26 +19,24 @@ class Navbar extends React.Component {
 
   render () {
     return (
-      <div className="custom navbar">
-        <div className="row">
-          <div className="col s10 m6">
-            <a href="/" className="brand-logo">
-              <h1>Ben Israeli</h1>
-              <h2>Private Tutor &amp; Learning Specialist</h2>
-            </a>
-          </div>
+      <div className="row custom navbar">
+        <div className="col s10 m6">
+          <a href="/" className="brand-logo">
+            <h1>Ben Israeli</h1>
+            <h2>Private Tutor &amp; Learning Specialist</h2>
+          </a>
+        </div>
 
-          <div className="col s2 m6">
-            <a onClick={ toggleMobileMenu } className="button-collapse right hide-on-large-only">
-              <i className="material-icons">menu</i>
-            </a>
-            <ul className="right hide-on-med-and-down">
-              <li className={'nav-link ' + this.isActiveRouteName('home|about')}><a href="/about">About</a></li>
-              <li className={'nav-link ' + this.isActiveRouteName('approach')}><a href="/approach">Approach</a></li>
-              <li className={'nav-link ' + this.isActiveRouteName('contact')}><a href="/contact">Contact</a></li>
-              <li className={'nav-link ' + this.isActiveRouteName('clients')}><a href="/clients">Clients</a></li>
-            </ul>
-          </div>
+        <div className="col s2 m6">
+          <a onClick={ toggleMobileMenu } className="button-collapse right hide-on-large-only">
+            <i className="material-icons">menu</i>
+          </a>
+          <ul className="right hide-on-med-and-down">
+            <li className={'nav-link ' + this.isActiveRouteName('home|about')}><a href="/about">About</a></li>
+            <li className={'nav-link ' + this.isActiveRouteName('approach')}><a href="/approach">Approach</a></li>
+            <li className={'nav-link ' + this.isActiveRouteName('contact')}><a href="/contact">Contact</a></li>
+            <li className={'nav-link ' + this.isActiveRouteName('clients')}><a href="/clients">Clients</a></li>
+          </ul>
         </div>
       </div>
     );

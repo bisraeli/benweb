@@ -3,4 +3,87 @@
     width: 100%;
     height: 700px;
   }
+
+  // input {
+  //   &:focus {
+  //     border-bottom: 1px solid #673ab7 !important;
+  //     box-shadow: 0 1px 0 0 #673ab7 !important;
+  //
+  //     + label {
+  //       color: #673ab7 !important;
+  //     }
+  //   }
+  // }
+  //
+  // .prefix.active {
+  //   color: #673ab7 !important;
+  // }
+
+  .regular-textarea {
+    p {
+      font-family: 'Lora';
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    textarea {
+      height: 200px;
+      outline: 0;
+
+      &:focus {
+        border-color: #673ab7;
+      }
+
+      @media (min-width: 768px) {
+        height: 219px;
+      }
+    }
+  }
+
+  .submit-button {
+    background-color: #673ab7 !important;
+    font-family: 'Lora';
+    text-transform: initial;
+  }
+
+  /* label color */
+   .input-field label {
+     color: #000;
+     font-family: 'Lora';
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label,
+   .input-field input[type=email]:focus + label,
+   .input-field input[type=tel]:focus + label {
+     color: #673ab7;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus,
+   .input-field input[type=email]:focus,
+   .input-field input[type=tel]:focus {
+     border-bottom: 1px solid #673ab7;
+     box-shadow: 0 1px 0 0 #673ab7;
+   }
+   /* valid color */
+   .input-field input[type=text].valid,
+   .input-field input[type=email].valid,
+   .input-field input[type=tel].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+   .input-field input[type=text].valid:focus,
+   .input-field input[type=email].valid:focus,
+   .input-field input[type=tel].valid:focus {
+     border-bottom: 1px solid #673ab7;
+     box-shadow: 0 1px 0 0 #673ab7;
+   }
+   /* invalid color */
+  //  .input-field input[type=text].invalid {
+  //    border-bottom: 1px solid #000;
+  //    box-shadow: 0 1px 0 0 #000;
+  //  }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #673ab7;
+   }
 }
