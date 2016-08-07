@@ -15,7 +15,7 @@ export default class About extends React.Component {
           <p className="content-text">
             Ben provides high school math (algebra, geometry, precalculus, calculus, statistics), biology (SAT II and AP), chemistry (SAT II and AP), Spanish (SAT II), and SAT, ACT, and SAT II Subject Tests tutoring. He also teaches Exeter Math. Every session is one-to-one with Ben.
             <span className="hide-on-med-and-down">
-              &nbsp Ben fully customizes his teaching style to his student’s learning style. Ben only takes on a limited number of students per year and families make a commitment to working with Ben at his office, at home, or online. Students will receive various licenses to learning websites, which Ben uses to manage student-progress outside of session.
+              &nbsp; Ben fully customizes his teaching style to his student’s learning style. Ben only takes on a limited number of students per year and families make a commitment to working with Ben at his office, at home, or online. Students will receive various licenses to learning websites, which Ben uses to manage student-progress outside of session.
             </span>
           </p>
           <p className="content-text hide-on-large-only">
