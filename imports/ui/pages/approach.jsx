@@ -10,7 +10,7 @@ export default class Appraoch extends React.Component {
             <p className="content-text">
               Mr. Israeli approaches education from many angles,
               structuring sessions to advance the student on a learning track tailored
-              to his/her learning needs. Key to Bens teaching philosophy is soliciting the student’s
+              to his/her learning needs. Key to Ben's teaching philosophy is soliciting the student’s
               active, consistent engagement in the learning process. The goal is each
               student’s management of his/her learning.
             </p>
