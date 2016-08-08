@@ -30,7 +30,6 @@ export default class Contact extends React.Component {
     delete formData.errors;
     let context = CONTACT_SCHEMA.newContext();
     let isValid = context.validate(formData);
-        // console.log(context.validate(formData), context.invalidKeys(), context.keyErrorMessage('regEx'));
 
     // form data is valid submit to server
     if (isValid) {
