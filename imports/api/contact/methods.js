@@ -24,7 +24,7 @@ Meteor.methods({
       // if it's async this meteor method gets completed before this is email Send
       // we avoid making the user wait for this to be done
       Email.send({
-        to: "ben@ben-israeli.com",
+        to: "ben@benisraeli.nyc",
         from: "noreply@benisraeli.nyc",
         subject: "new client request",
         text: text
