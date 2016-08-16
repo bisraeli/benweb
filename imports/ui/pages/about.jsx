@@ -7,7 +7,7 @@ export default class About extends React.Component {
       <div className="row about">
         <div className="col s12">
           <div className="content-image">
-            <img className="left" src="/img/webphoto.jpg.png"/>
+            <img className="left" src="/img/photofinal.jpg"/>
           </div>
           <div className="content-text-large">
             Ben Israeli offers a 360° tutoring solution to enhance quantitative and language skills for great test prep results and year-round academic success.
