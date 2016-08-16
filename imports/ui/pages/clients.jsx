@@ -2,6 +2,13 @@ import React from 'react';
 import GetInTouch from '../components/get-in-touch.jsx';
 
 export default class Clients extends React.Component {
+  componentWillMount() {
+    DocHead.setTitle('Ben Israeli Private Tutoring - Clients');
+    DocHead.addMeta({
+      name: "description",
+      content: "Clients of Ben Israeli can use the online calendar to add to or update their regular session times."
+    });
+  }
   componentDidMount() {
     window.addEventListener && window.addEventListener("message", function(event) {
       if (event.origin === "https://learnwithben.youcanbook.me") {

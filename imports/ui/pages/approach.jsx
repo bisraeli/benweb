@@ -2,6 +2,13 @@ import React from 'react';
 import GetInTouch from '../components/get-in-touch.jsx';
 
 export default class Appraoch extends React.Component {
+  componentWillMount() {
+    DocHead.setTitle('Ben Israeli Private Tutoring - Approach');
+    DocHead.addMeta({
+      name: "description",
+      content: "Ben Israeli offers a 360° tutoring solution to enhance quantitative and language skills for great test prep results and year-round academic success."
+    });
+  }
   render () {
     return (
       <div className="row approach">

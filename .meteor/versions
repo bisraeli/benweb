@@ -17,6 +17,7 @@ ddp-client@1.2.9
 ddp-common@1.2.6
 ddp-server@1.2.10
 deps@1.0.12
+dfischer:prerenderio@1.0.9
 diff-sequence@1.0.6
 ecmascript@0.5.7
 ecmascript-runtime@0.3.12
@@ -32,6 +33,7 @@ htmljs@1.0.10
 http@1.1.8
 id-map@1.0.8
 jquery@1.11.9
+kadira:dochead@1.5.0
 kadira:flow-router@2.12.1
 launch-screen@1.0.12
 less@2.7.4
@@ -66,6 +68,7 @@ spacebars-compiler@1.0.12
 standard-minifier-css@1.1.8
 standard-minifier-js@1.1.8
 static-html@1.1.11
+templating@1.1.14
 templating-tools@1.0.4
 tmeasday:check-npm-versions@0.2.0
 tracker@1.1.0

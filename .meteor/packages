@@ -23,3 +23,5 @@ less
 react-meteor-data
 aldeed:simple-schema
 email
+dfischer:prerenderio
+kadira:dochead

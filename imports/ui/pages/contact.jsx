@@ -14,6 +14,14 @@ export default class Contact extends React.Component {
     };
   }
 
+  componentWillMount() {
+    DocHead.setTitle('Ben Israeli Private Tutoring - Contact');
+    DocHead.addMeta({
+      name: "description",
+      content: "Contact Ben Israeli for great quantitative and language skill development."
+    });
+  }
+
   handleChange(prop, e) {
     let value = e.target.value;
     let newState = {};

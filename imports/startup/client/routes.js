@@ -2,7 +2,6 @@ import React from 'react';
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { mount } from 'react-mounter';
 import App from '../../ui/layout/app.jsx';
-import Home from '../../ui/pages/home.jsx';
 import About from '../../ui/pages/about.jsx';
 import Approach from '../../ui/pages/approach.jsx';
 import Contact from '../../ui/pages/contact.jsx';
@@ -51,4 +50,8 @@ FlowRouter.route('/clients', {
       main: <Clients/>
     });
   }
+});
+
+FlowRouter.triggers.enter(function() {
+  Meteor.startup(DocHead.removeDocHeadAddedTags);
 });
