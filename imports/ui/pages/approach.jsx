@@ -36,15 +36,10 @@ export default class Appraoch extends React.Component {
               even his test prep to each student's needs. One size does not fit all.
             </p>
 
-
-            <p className="content-text">
-              Mr. Israeli offers regular session hours, as well as weekend and online
-              appointments.
-            </p>
-
             <p className="content-text" style={{ marginBottom: '3rem'}}>
-              Ben Israeli graduated from New York University in 2009 with a degree in Economics and
-              English &amp; American Literature. He has been a full-time tutor since 2010.
+              Ben Israeli graduated from New York University in 2009 with a bachelor's degree in Economics and
+              English &amp; American Literature. Since 2010, he has been a full-time tutor, offering regular session hours, as well as weekend and online
+              appointments.
             </p>
 
             <GetInTouch/>
